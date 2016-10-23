@@ -30,3 +30,22 @@ html {
 .masthead {
   text-align: center;
 }
+
+.grid {
+  background-color: #423ca3;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.btn {
+  background-color: #15114c;
+  border: none;
+  border-radius: .5em;
+}
+
+.btn:hover {
+  color: #15114c;
+}
