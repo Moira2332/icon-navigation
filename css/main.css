@@ -32,9 +32,13 @@ a {
 
 }
 
-h1 {
+.logo {
   text-align: center;
   color: #fff;
+}
+
+.nav {
+  text-align: center;
 }
 
 .btn {
