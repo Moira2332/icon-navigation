@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: sans-serif;
   font-family: "Abhaya Libre", serif;
 }
 
@@ -22,17 +21,15 @@ html {
   width: 100%;
 }
 
-.logo {
+a {
   text-decoration: none;
   text-align: center;
 }
 
 .masthead {
   text-align: center;
-}
-
-.grid {
   background-color: #423ca3;
+
 }
 
 h1 {
@@ -48,4 +45,17 @@ h1 {
 
 .btn:hover {
   color: #15114c;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav {
+    text-align: right;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
 }
